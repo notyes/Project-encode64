@@ -5,19 +5,24 @@
 	<title>encode64</title>
 	<!-- Start Program -->	
 	<link rel="stylesheet" type="text/css" href="">	
-	<script type="text/javascript" src="javascript64.js"></script>
-	<script type="text/javascript">
+	<script type="text/javascript" src="jquery-1.7.1.min.js"></script>
 
-		if(aa = 1)
-		{
-			alert(aa);
-		}
+	<script type="text/javascript" src="javascript64.js"></script>
+	
+	<script type="text/javascript">
+		$(function() {
+
+			encode64(ww); // return  aCode
+
+			alert(aCode);
+
+		});
 	</script>
 
 </head>
-<body>
+<body class="main" id="start">
 
-	
 
 </body>
+
 </html>
